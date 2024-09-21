@@ -1,0 +1,6 @@
+<h2>Contact Us</h2>
+<form action="post">
+    {% crsf_token %}
+    {{ form.as_p }}
+    <button type = "submit">Submit</button>
+</form>

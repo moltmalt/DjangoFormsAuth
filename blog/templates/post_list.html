@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<head>
+    <title>Blog Posts</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Blog Posts</h1>    
+    <ul>
+        {% for post in posts %}
+            <li><a href="{% url 'post_detail' post.id %}">{{post.title}}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+{% endblock content %}
