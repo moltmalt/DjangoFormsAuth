@@ -12,8 +12,9 @@ This project is a simple registration and login system built using Django. It le
 ## Prerequisites
 Before you begin, ensure you have the following installed:
 - pip install django-crispy-forms
+- pip install django-bootstrap4
 
-## Pre-made Accounrs
+## Pre-made Accounts
 - USERNAME: danjo
 - PASSWORD: taprA4-xufmis-nuwzyd
 
